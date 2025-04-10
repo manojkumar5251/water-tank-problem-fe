@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-input {
+    
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    gap: 1rem;
+}
+
+.text-input input{
+    padding: 0.5rem;
+    font-size: 16px;
+}
+.text-input label{
+    font-size: larger;
+}
+
+.water-tank {
+    display: flex;
+    width: 720px;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-top: 0px;
+}
+
+.water-tank-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.block {
+    height: 50px;
+    border-top: 2px solid black;
+}
+
+.wall-block {
+    background-color: yellow;
+}
+
+.water-block {
+    background-color: skyblue;
+}
